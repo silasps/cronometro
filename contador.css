@@ -1,0 +1,44 @@
+* {
+    margin: 0; /*espaçamento externo*/
+    padding: 0; /*espaçamento interno*/
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font: normal bold 16px/normal tahoma;
+}
+
+article {
+    width: 300px;
+    text-align: center;
+    background-color: #68b04d;
+    border-radius: 10px;
+    margin: 50px auto 20px;
+    padding: 5px;
+    overflow: hidden; /*Serve para esconder eventuais estouros da estrutura interna*/
+    box-shadow: 3px 3px 10px #ccc;
+}
+
+article h3 {
+    padding: 10px;
+    color: #fff;
+}
+
+article .count {
+    padding: 5px;
+}
+
+article #timer {
+    padding: 5px;
+    color: crimson;
+    background-color: aliceblue;
+    border-radius: 2px;
+}
+
+article #botao {
+    padding: 2px;
+    width: 80px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px rgba(116, 131, 117, 0.589);
+}
